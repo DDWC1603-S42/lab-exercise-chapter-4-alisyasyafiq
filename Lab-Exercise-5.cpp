@@ -9,9 +9,9 @@ int main()
 	{
 		std::cout<<"Enter 0 to exit or anyhing else to continue: ";
 		int num;
-		cin>>num;	
+		std::cin>>num;	
 
-		//exit loop if user enters
+		//exit loop if user enters 0
 		if(num==0)
 			break;
 	}
